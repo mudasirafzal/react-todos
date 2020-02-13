@@ -5,21 +5,23 @@ body {
   background: #eee;
 }
 
-.todo-app{
+.todo-app {
   max-width: 700px;
   margin: 20px auto;
   padding: 10px 20px 10px;
 }
 
-.collection-item{
+.collection-item {
   background: #fff;
 }
 
-.collection-item span:hover{
+.collection-item span.done:hover {
   cursor: pointer;
-  text-decoration: line-through;
 }
-
-form{
+.collection-item span.done {
+  float: right;
+  color: red;
+}
+form {
   margin: 20px 10px;
 }
